@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35728.132 d17.12
+VisualStudioVersion = 17.12.35728.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.First steps in coding", "01.First steps in coding", "{78DF3F7F-2E29-48C3-B13F-325CACDE59C1}"
 EndProject
@@ -22,6 +22,12 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08.PetShop", "01.First steps in coding\08.PetShop\08.PetShop.vcxproj", "{6D9A9DC2-883F-4C15-8D62-7D0087DA0699}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09.YardGreening", "01.First steps in coding\09.YardGreening\09.YardGreening.vcxproj", "{9EB9781B-FA06-4508-95B8-5C3CA6DAAC2A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.1.USDToBGN", "01.First steps in coding\01.1.USDToBGN\01.1.USDToBGN.vcxproj", "{ED73294A-0E01-4AE2-A658-753EA93F2B6C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.2.RadiansToDegrees", "01.First steps in coding\01.2.RadiansToDegrees\01.2.RadiansToDegrees.vcxproj", "{70A307A9-507F-4B7B-BC20-9100944F6008}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.3.DepositCalculator", "01.First steps in coding\01.3.DepositCalculator\01.3.DepositCalculator.vcxproj", "{9A3E1EAF-EED3-4E84-B925-5B38AD99C97F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +109,30 @@ Global
 		{9EB9781B-FA06-4508-95B8-5C3CA6DAAC2A}.Release|x64.Build.0 = Release|x64
 		{9EB9781B-FA06-4508-95B8-5C3CA6DAAC2A}.Release|x86.ActiveCfg = Release|Win32
 		{9EB9781B-FA06-4508-95B8-5C3CA6DAAC2A}.Release|x86.Build.0 = Release|Win32
+		{ED73294A-0E01-4AE2-A658-753EA93F2B6C}.Debug|x64.ActiveCfg = Debug|x64
+		{ED73294A-0E01-4AE2-A658-753EA93F2B6C}.Debug|x64.Build.0 = Debug|x64
+		{ED73294A-0E01-4AE2-A658-753EA93F2B6C}.Debug|x86.ActiveCfg = Debug|Win32
+		{ED73294A-0E01-4AE2-A658-753EA93F2B6C}.Debug|x86.Build.0 = Debug|Win32
+		{ED73294A-0E01-4AE2-A658-753EA93F2B6C}.Release|x64.ActiveCfg = Release|x64
+		{ED73294A-0E01-4AE2-A658-753EA93F2B6C}.Release|x64.Build.0 = Release|x64
+		{ED73294A-0E01-4AE2-A658-753EA93F2B6C}.Release|x86.ActiveCfg = Release|Win32
+		{ED73294A-0E01-4AE2-A658-753EA93F2B6C}.Release|x86.Build.0 = Release|Win32
+		{70A307A9-507F-4B7B-BC20-9100944F6008}.Debug|x64.ActiveCfg = Debug|x64
+		{70A307A9-507F-4B7B-BC20-9100944F6008}.Debug|x64.Build.0 = Debug|x64
+		{70A307A9-507F-4B7B-BC20-9100944F6008}.Debug|x86.ActiveCfg = Debug|Win32
+		{70A307A9-507F-4B7B-BC20-9100944F6008}.Debug|x86.Build.0 = Debug|Win32
+		{70A307A9-507F-4B7B-BC20-9100944F6008}.Release|x64.ActiveCfg = Release|x64
+		{70A307A9-507F-4B7B-BC20-9100944F6008}.Release|x64.Build.0 = Release|x64
+		{70A307A9-507F-4B7B-BC20-9100944F6008}.Release|x86.ActiveCfg = Release|Win32
+		{70A307A9-507F-4B7B-BC20-9100944F6008}.Release|x86.Build.0 = Release|Win32
+		{9A3E1EAF-EED3-4E84-B925-5B38AD99C97F}.Debug|x64.ActiveCfg = Debug|x64
+		{9A3E1EAF-EED3-4E84-B925-5B38AD99C97F}.Debug|x64.Build.0 = Debug|x64
+		{9A3E1EAF-EED3-4E84-B925-5B38AD99C97F}.Debug|x86.ActiveCfg = Debug|Win32
+		{9A3E1EAF-EED3-4E84-B925-5B38AD99C97F}.Debug|x86.Build.0 = Debug|Win32
+		{9A3E1EAF-EED3-4E84-B925-5B38AD99C97F}.Release|x64.ActiveCfg = Release|x64
+		{9A3E1EAF-EED3-4E84-B925-5B38AD99C97F}.Release|x64.Build.0 = Release|x64
+		{9A3E1EAF-EED3-4E84-B925-5B38AD99C97F}.Release|x86.ActiveCfg = Release|Win32
+		{9A3E1EAF-EED3-4E84-B925-5B38AD99C97F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -117,5 +147,11 @@ Global
 		{D33F5F41-5856-48BB-9CA4-FA2749858990} = {78DF3F7F-2E29-48C3-B13F-325CACDE59C1}
 		{6D9A9DC2-883F-4C15-8D62-7D0087DA0699} = {78DF3F7F-2E29-48C3-B13F-325CACDE59C1}
 		{9EB9781B-FA06-4508-95B8-5C3CA6DAAC2A} = {78DF3F7F-2E29-48C3-B13F-325CACDE59C1}
+		{ED73294A-0E01-4AE2-A658-753EA93F2B6C} = {78DF3F7F-2E29-48C3-B13F-325CACDE59C1}
+		{70A307A9-507F-4B7B-BC20-9100944F6008} = {78DF3F7F-2E29-48C3-B13F-325CACDE59C1}
+		{9A3E1EAF-EED3-4E84-B925-5B38AD99C97F} = {78DF3F7F-2E29-48C3-B13F-325CACDE59C1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20173EFF-8B7C-4080-978D-BA0581A0A4D4}
 	EndGlobalSection
 EndGlobal

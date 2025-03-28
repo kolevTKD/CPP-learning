@@ -19,4 +19,6 @@ int main()
 
     cout << "The final price is: " << total << " lv." << endl;
     cout << "The discount is: " << discountSum << " lv." << endl;
+
+    return 0;
 }

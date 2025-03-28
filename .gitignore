@@ -12,6 +12,10 @@
 *.gch
 *.pch
 
+# Ignore word and powerpoint documents
+*.docx
+*.pptx
+
 # Compiled Dynamic libraries
 *.so
 *.dylib
